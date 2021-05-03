@@ -103,9 +103,9 @@ export default function Apply() {
             className="title bg-gray-100 border border-gray-300 p-2 mb-4 outline-none"
           >
             <option value="">Select School</option>
-            <option value="soc">School of Computing</option>
-            <option value="soe">School of Electronics</option>
-            <option value="sobs">School of Basic Sciences</option>
+            <option value="School of Computing">School of Computing</option>
+            <option value="School of Electronics">School of Electronics</option>
+            <option value="School of Basic Sciences">School of Basic Sciences</option>
           </select>
 
           <select
@@ -116,24 +116,24 @@ export default function Apply() {
             className="title bg-gray-100 border border-gray-300 p-2 mb-4 outline-none"
           >
             <option value="">Select Department</option>
-            {school === "soc" && (
+            {school === "School of Computing" && (
               <>
-                <option value="cs">CSE</option>
+                <option value="CSE">CSE</option>
                 </>
             )}
-            {school === "soe" && (
+            {school === "School of Electronics" && (
               <>
-                <option value="ec">ECE</option>
+                <option value="ECE">ECE</option>
               </>
             )}
-            {school === "sobs" && (
+            {school === "School of Basic Sciences" && (
               <>
-                <option value="bt">Bio-Technology</option>
-                <option value="ch">Chemistry</option>
-                <option value="en">English</option>
-                <option value="ma">Mathematics</option>
-                <option value="mg">Management</option>
-                <option value="ph">Physics</option>
+                <option value="Bio-Technology">Bio-Technology</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="English">English</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Management">Management</option>
+                <option value="Physics">Physics</option>
                 
               </>
             )}
