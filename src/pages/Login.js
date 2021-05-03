@@ -55,7 +55,7 @@ export default function Login() {
         <div className="py-12 bg-indigo-100 lg:bg-white flex justify-center lg:justify-start lg:px-12">
           <div className="cursor-pointer flex items-center">
             <div className="text-2xl text-indigo-800 tracking-wide ml-2 font-semibold">
-              IIIT Una - Recruitement
+              IIIT Una - Recruitment
             </div>
           </div>
         </div>
