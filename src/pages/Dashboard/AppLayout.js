@@ -61,7 +61,7 @@ export default function AppLayout(props) {
           className="py-3 px-5 border-b border-black text-white hover:bg-indigo-400 "
           to={`/dashboard/application/sp/${appId}`}
         >
-          Sponsered Projects
+          Sponsored Projects
         </NavLink> */}
             {/* <NavLink
           className="py-3 px-5 border-b border-black text-white hover:bg-indigo-400 "
@@ -103,7 +103,7 @@ export default function AppLayout(props) {
               className="py-3 px-5 border-b border-black text-white hover:bg-indigo-400 "
               to={`/dashboard/application/otherinfo/${appId}`}
             >
-              Other Inofrmation
+              Other Information
             </NavLink>
             <NavLink
               className="py-3 px-5 border-b border-black text-white hover:bg-indigo-400 "
@@ -141,7 +141,7 @@ export default function AppLayout(props) {
           className="py-3 px-5 border-b border-black text-white hover:bg-indigo-400 "
           onClick={() => window.open(`/applications/${appId}/gpdf`)}
         >
-          Generate Pdf
+          Generate PDF
         </button>
       </div>
       <div className="px-12"> {props.children}</div>
