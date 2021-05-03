@@ -300,7 +300,7 @@ export default function PersonalInfo() {
           />
 
           <label htmlFor="pwdDoc" className="text-sm mb-1">
-            Recent Photograph(jpg/jpeg/png only)<span className="text-red-500">*</span>
+            Recent Photograph(jpg/jpeg/png of max 5MB only)<span className="text-red-500">*</span>
           </label>
           <SecondaryInput
             onChange={onFileChangeHandler}
