@@ -83,7 +83,7 @@ export default function OtherInfo() {
             </option>
             <option value="specialTraning">Special training/Proficiency</option>
             {/*<option value="Proficiency">
-              Proficiency / Revent Information
+              Proficiency / Relevent Information
             </option>*/}
             <option value="Others">Other(Relevent to the Application)</option>
           </select>
